@@ -1,0 +1,29 @@
+
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.6.10'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.6.10"
+}
+
+application {
+    mainClassName = 'A1Basic'
+}
+
+javafx {
+    // JavaFX 17 requires Java JDK 16+
+    version = "17.0.1"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.graphics', 'javafx.media']
+}

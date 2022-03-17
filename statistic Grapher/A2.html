@@ -1,0 +1,1642 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/ -->
+<html lang="en" class="js csstransforms3d supports csstransforms3d"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.90.1">
+    <meta name="description" content="Course Website for CS 349 User Interfaces">
+<meta name="author" content="Jeff Avery, Daniel Vogel">
+
+    <link rel="icon" href="https://student.cs.uwaterloo.ca/~cs349/site/images/favicon.png" type="image/png">
+
+    <title>A2 Grapher :: CS 349</title>
+
+    
+    <link href="./A2_files/nucleus.css" rel="stylesheet">
+    <link href="./A2_files/fontawesome-all.min.css" rel="stylesheet">
+    <link href="./A2_files/hybrid.css" rel="stylesheet">
+    <link href="./A2_files/featherlight.min.css" rel="stylesheet">
+    <link href="./A2_files/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="./A2_files/auto-complete.css" rel="stylesheet">
+    <link href="./A2_files/atom-one-dark-reasonable.css" rel="stylesheet">
+    <link href="./A2_files/theme.css" rel="stylesheet">
+    <link href="./A2_files/tabs.css" rel="stylesheet">
+    <link href="./A2_files/hugo-theme.css" rel="stylesheet">
+    
+    <link href="./A2_files/theme-blue.css" rel="stylesheet">
+    
+    
+
+    <script src="./A2_files/jquery-3.3.1.min.js"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    <style type="css">
+@font-face {
+   font-family: 'Inconsolata', serif;
+   src: url("Inconsolata-Regular.ttf");
+   font-style: normal;
+   font-weight: 200;
+}
+</style>
+  </head>
+  <body class="" data-url="/~cs349/site/assignments/a2/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://student.cs.uwaterloo.ca/~cs349/site/" style="color:#eeeeee; padding-left: 10px; font-weight: bold;"> CS 349 W22
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input="" id="search-by" type="search" placeholder="Search..." autocomplete="off">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="./A2_files/lunr.min.js"></script>
+<script type="text/javascript" src="./A2_files/auto-complete.js"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/student.cs.uwaterloo.ca\/~cs349\/site\/";
+    
+</script>
+<script type="text/javascript" src="./A2_files/search.js"></script>
+
+    
+  </div>
+  
+
+    <div class="highlightable ps-container ps-theme-default ps-active-y" data-ps-id="86a68126-5dd6-8094-b824-6f8e97ecc784" style="height: 653.906px;">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/about/" title="About" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/about/">
+          About
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/about/assessment/" title="Assessment" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/about/assessment/">
+        Assessment
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/about/help/" title="Getting Help" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/about/help/">
+        Getting Help
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/about/policies/" title="Course Policies" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/about/policies/">
+        Course Policies
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/about/supports/" title="Student Supports" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/about/supports/">
+        Student Supports
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/schedule/" title="Schedule" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/schedule/">
+          Schedule
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/schedule/quizzes/" title="Quizzes" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/schedule/quizzes/">
+        Quizzes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/assignments/" title="Assignments" class="dd-item parent visited">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/">
+          Assignments
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/assignments/a1/" title="A1 Notes" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a1/">
+        A1 Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/assignments/a2/" title="A2 Grapher" class="dd-item parent active visited">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/">
+          A2 Grapher
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/assignments/a3/" title="A3 TBD" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a3/">
+        A3 TBD
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/~cs349/site/assignments/a4/" title="A4 TBD" class="dd-item ">
+        <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a4/">
+        A4 TBD
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/" title="Getting Started" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/">
+          Getting Started
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/1-overview/" title="Overview" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/1-overview/">
+          Overview
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/2-setup-git/" title="Git for Assignments" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/2-setup-git/">
+          Git for Assignments
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/3-create-project/" title="Create a Project" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/3-create-project/">
+          Create a Project
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/4-run-samples/" title="Run Sample Code" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/4-run-samples/">
+          Run Sample Code
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/getting-started/5-troubleshooting/" title="Troubleshooting" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/getting-started/5-troubleshooting/">
+          Troubleshooting
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/reference/" title="Reference" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/reference/">
+          Reference
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/reference/1-kotlin-primer/" title="Kotlin Primer" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/reference/1-kotlin-primer/">
+          Kotlin Primer
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/reference/2-javafx-faq/" title="JavaFX FAQ" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/reference/2-javafx-faq/">
+          JavaFX FAQ
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/reference/3-android/" title="Android" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/reference/3-android/">
+          Android
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/reference/4-reading/" title="Reading List" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/reference/4-reading/">
+          Reading List
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/archive/" title="Archive" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/archive/">
+          Archive
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/archive/1215/" title="Spring 2021" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/archive/1215/">
+          Spring 2021
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/~cs349/site/archive/1219/" title="Fall 2021" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://student.cs.uwaterloo.ca/~cs349/site/archive/1219/">
+          Fall 2021
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+      <section id="shortcuts">
+        <h3></h3>
+        <ul>
+          
+              <li>
+                  <a class="padding" href="https://piazza.com/"><i class="fab fa-forumbee"></i> Piazza forums</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://git.uwaterloo.ca/j2avery/cs349-public"><i class="fab fa-gitlab"></i> GitLab public</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://learn.uwaterloo.ca/d2l/home/761213"><i class="fab fa-leanpub"></i> Learn site</a>
+              </li>
+          
+              <li>
+                  <a class="padding" href="https://student.cs.uwaterloo.ca/~cs349/site/tags/"><i class="fas fa-tags"></i> Tags</a>
+              </li>
+          
+        </ul>
+      </section>
+    
+
+    
+    <section id="footer">
+      <p>Contents (c) Jeff Avery, Daniel Vogel, Adrian Reetz 2021-2022.<br>Built with <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/matcornic/hugo-theme-learn">Grav Theme <i class="fas fa-heart"></i></a></p>
+
+    </section>
+  <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px; height: 654px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 618px;"></div></div></div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar-sticky-wrapper" class="sticky-wrapper is-sticky" style="height: 48px;"><div id="top-bar" style="width: 682px; position: fixed; top: 0px; z-index: 1000;">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#" id="sidebar-toggle" data-sidebar-toggle="" class="highlight">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href="https://student.cs.uwaterloo.ca/~cs349/site/" class="highlight">Home</a> &gt; <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/" class="highlight">Assignments</a> &gt; A2 Grapher
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#synopsis" class="highlight">Synopsis</a></li>
+    <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#requirements-and-grading" class="highlight">Requirements and Grading</a>
+      <ul>
+        <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#technical-requirements-8-marks" class="highlight">Technical Requirements (8 marks)</a></li>
+        <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#functional-requirements-50-marks" class="highlight">Functional Requirements (50 marks)</a></li>
+        <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#enhancement-2-marks" class="highlight">Enhancement (2 marks)</a></li>
+        <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#general-deductions" class="highlight">General Deductions</a></li>
+      </ul>
+    </li>
+    <li><a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#submission" class="highlight">Submission</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div></div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              A2 Grapher
+            </h1>
+          
+
+        
+
+
+
+	<p><strong>MVC, Drawing</strong></p>
+<blockquote>
+<p><strong>Due Fri Feb 18 at 6 PM [60 marks]</strong></p>
+</blockquote>
+<h2 id="synopsis">Synopsis <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#synopsis"><i class="fas fa-link fa-lg"></i></span></h2>
+<p>You will implement a simple graphing application. It has multiple DataSets, each with a text title, text x- and y-axis labels, and a list of integer numbers between 0 and 100. When a DataSet is selected, a simple bar graph is drawn, basic statistics are shown, and the DataSet  can be changed.</p>
+<a href="./A2_files/a2-onload.png" data-featherlight="image"><img src="./A2_files/a2-onload.png" style="max-width: 800px; min-width: 400px; width: auto; height: auto;"></a>
+<p>Watch a <a href="https://vault.cs.uwaterloo.ca/s/q25WWo5QjjDseAo" class="highlight">video demonstration</a> of the a2 example solution (no audio).</p>
+<h2 id="requirements-and-grading">Requirements and Grading <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#requirements-and-grading"><i class="fas fa-link fa-lg"></i></span></h2>
+<p>Make sure you have read and understand the <a href="https://www.student.cs.uwaterloo.ca/~cs349/site/assignments/" class="highlight">course assignment policies</a>.</p>
+<p>You will submit two versions of your program:</p>
+<ul>
+<li>
+<p>In <code>a2-basic</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>, you implement as much required functionality as you can without any enhancements.  Your goal is to match the video demonstration. This is what the markers evaluate for required functionality marks. Do this first.</p>
+</li>
+<li>
+<p>In <code>a2-enhanced</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>, you can extend and deviate somewhat from the required user interface functionality to show off your programming skill, initiative to learn more related material, and design creativity. Do this second.</p>
+</li>
+</ul>
+<h3 id="technical-requirements-8-marks">Technical Requirements (8 marks) <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#technical-requirements-8-marks"><i class="fas fa-link fa-lg"></i></span></h3>
+<p><strong>MVC Technical Requirements</strong></p>
+<ol>
+<li>
+<p>[2 marks] Your solution must include multiple view classes and a single model class. At minimum, there should be 6 main views representing the main parts of the application interface.</p>
+<blockquote>
+<p><strong>HINT:</strong> You really only need these 6 views.</p>
+</blockquote>
+</li>
+<li>
+<p>[2 marks] The model should only communicate with views through the <code>IView</code> interface, and the model should not make any direct changes to the interface using any direct references to user interface widgets, panes, etc.</p>
+<blockquote>
+<p><strong>HINT:</strong> A good rule of thumb is that the model class should have no JavaFX code and need no JavaFX-related imports.</p>
+</blockquote>
+</li>
+<li>
+<p>[2 marks] All synchronization of application data and state should be done through the model. A view does not communicate directly with any other view, and a view does not directly change another view (i.e. a view does not have a reference to any other view).</p>
+<blockquote>
+<p><strong>CLARIFICATION:</strong> In the above, “view” refers to a class with an IView interface that registers with the model for notification. You may find it convenient to create “sub-view” functions or classes that a main view creates and manages, such as creating a small part of the main view.</p>
+</blockquote>
+</li>
+<li>
+<p>[2 marks] When a view modifies the model’s data or state, the model automatically handles the notification of all views (i.e. access to <code>notifyObservers</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> in the model must be private).</p>
+</li>
+</ol>
+<p><strong>Additional Special Requirements for This Assignment</strong></p>
+<ul>
+<li>
+<p><strong>You must use the provided <code>DataSet</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> data class</strong> by including this file in your project: <a href="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/DataSet.kt" class="highlight">DataSet.kt</a></p>
+</li>
+<li>
+<p><strong>You may not use JavaFX graph widgets</strong> (i.e. you may not import anything in <code>javafx.scene.chart</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>)</p>
+</li>
+</ul>
+<p><strong>Standard Requirements</strong></p>
+<ul>
+<li>
+<p>Your implementation must be written in Kotlin 1.5 or higher, use the JavaFX toolkit, and run as a desktop OS application (Windows, MacOS, or Linux).</p>
+</li>
+<li>
+<p>You may NOT use other toolkits (i.e. AWT and Swing are not allowed).</p>
+</li>
+<li>
+<p>You may NOT use FXML, the interface must be built in Kotlin code.</p>
+</li>
+<li>
+<p>You may use any code from the cs349 w22 public repo, as long as you acknowledge this clearly in your source code (a code comment is sufficient). As per course policy, you may not copy or use source code from any other source without explicit instructor permission.</p>
+</li>
+<li>
+<p>You must include a <code>README.md</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> with at minimum: (1) your name, WatIAM username, and student number; (2) your development OS with version; (3) if you used IntelliJ, if so what version. Other development settings we can get from your project files, but if you want to also include the version of kotlin, Java SDK, and JavaFX you used, it could be helpful. Below all of this, add any additional information that the TA might need to grade it (e.g. an explanation of your enhancement for the a2-enhanced). For example:</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md hljs markdown" data-lang="md"><span class="hljs-code">    # A2 Grapher
+    Donald Knuth (knuth99 12345689)
+ 
+    ## Setup
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> macOS 10.14.6 
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> IntelliJ IDEA 2021.3 (Community Edition)
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> Kotlin 1.6.10
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> JavaFX 17.0.1
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> Java SDK 16.0.2 (temurin)
+ 
+    ## Enhancement 
+    I added an invisibility cloaking hotkey: 
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> press </span><span style="color:#e6db74"><span class="hljs-code">`H`</span></span><span class="hljs-code"> to hide your computer in another dimension 
+    </span><span style="color:#66d9ef"><span class="hljs-code">*</span></span><span class="hljs-code"> …
+</span></code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre></div><ul>
+<li>
+<p>Your code should use Gradle to manage builds: typing <code>gradle build</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> (or <code>./gradlew build</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>) should build your program, and <code>gradle run</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> (or <code>./gradlew run</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>) should run it. This should work when executed in the root of your <code>a2-basic</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> directory (and in your <code>a2-enhanced</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> directory if you chose to do that part).</p>
+</li>
+<li>
+<p>Your project should be in a folder named <code>a2</code> and the directory structure should look <em>something</em> like below (it does not need to match exactly, and will vary a little based on how it was created, and whether you choose to do <code>a2-enhanced</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>). Use a .gitignore file to remove unnecessary generated files from the repo.</p>
+</li>
+</ul>
+<!-- (e.g. [here's an auto generated one](https://www.toptal.com/developers/gitignore?templates=intellij,gradle,kotlin,java)) -->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell hljs" data-lang="shell">a2/
+├── .gitignore
+├── README.md
+├── a2-basic/
+    ├── build.gradle
+    ├── gradlew.bat
+    └── src/main/kotlin/
+        ├── file1.kt
+        ├── file2.kt
+        └── …
+└── a2-enhanced/
+    └── …
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre></div><h3 id="functional-requirements-50-marks">Functional Requirements (50 marks) <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#functional-requirements-50-marks"><i class="fas fa-link fa-lg"></i></span></h3>
+<p>This will be marked using <code>a2-basic</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</p>
+<p>Each item is worth 2 marks, and they’re roughly ordered by difficulty. The final items are more challenging. Study the video to see these requirements demonstrated.</p>
+<p><strong>NOTE: interface dimensions are provided in JavaFX “units” as a guide, they may not necessarily be the same as pixels depending on the density and scaling of your OS and display.</strong> We do not measure pixels or JavaFX units when marking! For things like sizes, padding, and margins just follow the requirements and study the video. If a dimension isn’t given, study the video as a guide. Your goal is to achieve a layout very similar to the video.</p>
+<ol>
+<li>
+<p>The application opens as a window named “A2 Grapher (userid)” where “userid” is your UWaterloo WatIAM username. The initial size of the application part of the window is 800 by 600 units when opened, but it can be resized with a minimum size of 600 by 400 units.</p>
+</li>
+<li>
+<p>There is a toolbar at the top and a LIGHTGREY status bar at the bottom. When the window height is resized, the ToolBar height and status bar height do not change.</p>
+</li>
+<li>
+<p>Below the toolbar is a fixed height horizontal interface area for editing the dataset title and axes, and below that are 3 interface areas: a 150 unit wide area for the data table; a centre WHITE area for the graph; and a 125 unit wide right side area for data statistics. When the window width is resized, only the width of the center white area changes in the middle band.</p>
+</li>
+<li>
+<p>The toolbar has a ChoiceBox (labelled “Dataset: ”), a New button, and a Spinner. The range of the Spinner is 1 to 20. The toolbar widgets are left-aligned and they do not wrap. There are 10 units of spacing around and between all toolbar widgets. The new button has a preferred width of 80 units (no wider). There is a vertical Divider between the ChoiceBox and the New Button.</p>
+<blockquote>
+<p><strong>HINT:</strong> You can use the JavaFX ToolBar container widget for the toolbar.</p>
+</blockquote>
+</li>
+<li>
+<p>When the application first runs, the ChoiceBox in the toolbar lists the names of six default DataSets available for viewing: “Increasing”, “Large”, “Middle”, “Single”, “Range”, “Percentage”. Initially, the selected name in the ChoiceBox is “Increasing”</p>
+<blockquote>
+<p><strong>HINT:</strong> The six default DataSets are generated with <code>createTestDataSet</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> in the provided <code>DataSet.kt</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> code.</p>
+</blockquote>
+<blockquote>
+<p><strong>HINT:</strong> A Kotlin <code>MutableMap</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> is a good data structure to store DataSets in the model.</p>
+</blockquote>
+</li>
+<li>
+<p>The status bar displays the number of data sets available for viewing. When the application first loads it says “6 datasets”, and the number updates as new DataSets are added.</p>
+</li>
+<li>
+<p>The data statistics area (rightmost area in the application middle band) displays five statistics about the data in the currently selected DataSet: the “Number” of data points, the “Minimum” value, the “Maximum” value, the “Average” value, and the “Sum” of all data points.</p>
+</li>
+<li>
+<p>The data statistics area is formatted as 5 rows and 2 columns. Both columns are left-aligned. The “Average” is accurate to 1 decimal place.</p>
+</li>
+<li>
+<p>Below the toolbar is a dataset title and axes editing area. It has three TextFields labelled “Title:”, “X-Axis:”, and “Y-Axis:”. The TextFields contain the selected DataSet title, xAxis, and yAxis, and they may be edited.</p>
+</li>
+<li>
+<p>The data table area (left area in the application middle band) is a vertical list of each data point value in the currently selected DataSet.</p>
+</li>
+<li>
+<p>Each row of the data table area is a Spinner with a label showing the data point number (starting from 1). The list of values scrolls vertically if necessary, but it does not scroll horizontally. The padding, spacing, and width of the label and Spinner are selected so they are always visible with and without the vertical scrollbar.</p>
+</li>
+<li>
+<p>Selecting a different DataSet using the ChoiceBox in the toolbar changes the list of data point values in the data table area, changes the statistics in the statistics area, and changes the values in the edit dataset names and axis.</p>
+</li>
+<li>
+<p>In the data table area, the “up/down” buttons of each Spinner adjust the corresponding data value, and any resulting changes to the statistics are immediately visible. The Spinner range is 0 to 100 and the amount to step by is 1.</p>
+<blockquote>
+<p><strong>HINT:</strong> An initial test is to select the “Single” dataset, then adjusting the single data point will change all statistics except “Number”.</p>
+</blockquote>
+</li>
+<li>
+<p>Pressing the “New” button in the toolbar generates a new random dataset named “NewX” (where X is a unique integer). A new random dataset has the number of data points indicated in the toolbar Spinner, with each data point randomly selected from the range 0 to 100. It has a random 3-word title (in Title Case) and random 1-word axes labels. The random words are taken from <a href="https://www.lipsum.com/" class="highlight">standard Lorem Ipsum text</a>. The new dataset name is added to the toolbar ChoiceBox and selected.</p>
+<blockquote>
+<p><strong>CLARIFICATION:</strong> You may use the <code>LoremIpsum</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> random text generator class in the A1 solution.</p>
+</blockquote>
+<p><strong>Drawing</strong></p>
+<blockquote>
+<p><strong>IMPORTANT:</strong> You may not use the JavaFX graph widgets (i.e. you may not import anything in<code>javafx.scene.chart</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>).</p>
+</blockquote>
+</li>
+<li>
+<p>The central graph area displays an x- and y-axis as black lines. Behind the axes is a rectangle with LIGHTGRAY stroke (only the top and right lines are visible). There is a 50 unit margin around the axes and rectangle.</p>
+</li>
+<li>
+<p>There is a “0” labelling the bottom point of the y-axis and another number labelling the top of the y-axis.</p>
+</li>
+<li>
+<p>The text label for the x-axis is horizontally centred below the x-axis line and vertically centred in the bottom margin. A title for the graph is horizontally centered in the main graph area and vertically centred in the top margin.</p>
+</li>
+<li>
+<p>The label for the y-axis is vertically centred along the y-axis line and horizontally centred in the left margin. The y-axis label is rotated 90 degrees to read from bottom to top.</p>
+</li>
+<li>
+<p>The data points values are rendered as vertical bars. Each bar begins at the x-axis. Bars representing the maximum data point in the dataset extend to the top grey line of the rectangle (i.e. the range of the y-axis is 0 to the maximum data point value)</p>
+</li>
+<li>
+<p>The bars have equal width and are spaced apart by 5 units. There is a 5 unit space between the leftmost bar and the y-axis and a 5 unit space from the right-most bar and the right grey border line. The bar fill colors form a rainbow.</p>
+<blockquote>
+<p><strong>HINT</strong>: A rainbow is a uniform distribution of Hue in the HSB colour model. You can use <code>Color.hsb</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> with saturation and brightness 1.0.</p>
+</blockquote>
+</li>
+<li>
+<p>The top number labelling the top of the y-axis is the maximum data point in the dataset.</p>
+</li>
+<li>
+<p>Editing the TextFields in the dataset title and axes area changes the corresponding text in the graph. The edits take effect immediately (i.e. after each keystroke).</p>
+</li>
+<li>
+<p>Editing any datapoint in the data table form immediately changes the data in the graph, including the maximum point label in the y-axis and the upper limit of the y-axis range.</p>
+</li>
+<li>
+<p>Any edits to the selected dataset title, axis labels, and any edits to data point values remain in that dataset while the application is running (i.e. if another dataset is selected, then the changed dataset is selected again, the edited values are still there).</p>
+</li>
+<li>
+<p>The graph resizes to fill the centre graph area of the interface without any cropping. The margin size, line thickness, font size, and spacing between bars do not change. The length of the axes, length of the bars, and thickness of the bars change to fill the space.</p>
+</li>
+</ol>
+<h3 id="enhancement-2-marks">Enhancement (2 marks) <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#enhancement-2-marks"><i class="fas fa-link fa-lg"></i></span></h3>
+<p>This will be marked using <code>a2-enhanced</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</p>
+<p>Once you have required functionality above working, enhance the functionality or the visual design in a version of the user interface in a program called <code>a2-enhanced</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>.</p>
+<p>These basic requirements must still be followed:</p>
+<ul>
+<li>The application should still be a graphing application with the ability to display and change different data sets.</li>
+<li>The application should still have the same high level layout (a toolbar at top, graph manipulation and information interface in the middle, and status bar at bottom). You can change what’s in these parts of the interface and you can introduce other interface areas.</li>
+<li>The window must still be able to be resized with reasonable responsive adjustment in the interface, and it should look fine at the initial resolution specified above.</li>
+<li>The enhancement should be visible through the user interface and be directly related to the user interface. For example, adding a database backend, or scraping data from a website would not count as enhancements unless there was a significant user interface aspect.</li>
+</ul>
+<p>Some enhancement ideas:</p>
+<ul>
+<li>Add a way to view a DataSet using another type of graph such as a pie chart.</li>
+<li>Add the ability to graph 2 datasets on the bar chart (using different colours with a legend)</li>
+<li>Add an interface to edit the layout of the bar chart: change the margin, bar colours, font size, etc.</li>
+<li>Make the graph interactive, for example hover over a bar to see the value, click on bars to fade them out to allow comparing specific data points, etc.</li>
+</ul>
+<blockquote>
+<p>Any one of the bullets above would be a fine enhancement, but you’re encouraged to dream up your own enhancements too. Those bullets are just examples so you get a sense of “how big” an enhancement should be.</p>
+</blockquote>
+<p>You must describe your enhanced version in your README.md file (see above). The markers need to know how to use your program so they can see how great it is.</p>
+<blockquote>
+<p>It’s OK to not do the enhanced version, or to keep it minimal if you’re running out of time. Remember, it’s only worth a small portion of the assignment.</p>
+</blockquote>
+<h3 id="general-deductions">General Deductions <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#general-deductions"><i class="fas fa-link fa-lg"></i></span></h3>
+<p>Up to 5 marks could be deducted if:</p>
+<ul>
+<li>Source code is very sparsely commented.</li>
+<li>Formatting is very inconsistent (indent, spacing).</li>
+<li>Classes, methods, and fields have cryptic, very short, or unclear names.</li>
+<li>The code has obviously duplicated sections that could have been refactored.</li>
+<li>The code is generally poorly unorganized. For example, multiple large class definitions are in one file.</li>
+<li>Many unnecessary files are submitted, like system and build-generated files (e.g. .DS_Store).</li>
+</ul>
+<p><strong>You could lose more than 5 marks if your code doesn’t compile or crashes easily.</strong></p>
+<h2 id="submission">Submission <span class="anchor" data-clipboard-text="https://student.cs.uwaterloo.ca/~cs349/site/assignments/a2/#submission"><i class="fas fa-link fa-lg"></i></span></h2>
+<p>Submit your assignment to your personal CS 349 repository in the <code>a2/</code> subdirectory.</p>
+<p>Ensure all files required to compile the program are checked in. It’s your responsibility to check your submission (e.g. by cloning it to a fresh directory and testing it like a marker will do).</p>
+
+
+
+
+
+<footer class=" footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="./A2_files/clipboard.min.js"></script>
+    <script src="./A2_files/perfect-scrollbar.min.js"></script>
+    <script src="./A2_files/perfect-scrollbar.jquery.min.js"></script>
+    <script src="./A2_files/jquery.sticky.js"></script>
+    <script src="./A2_files/featherlight.min.js"></script>
+    <script src="./A2_files/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./A2_files/modernizr.custom-3.6.0.js"></script>
+    <script src="./A2_files/learn.js"></script>
+    <script src="./A2_files/hugo-learn.js"></script>
+    
+        
+            <script src="./A2_files/mermaid.js"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  
+
+<div class="autocomplete-suggestions " style="left: -213px; top: 5452px; width: 196px;"></div></body></html>
